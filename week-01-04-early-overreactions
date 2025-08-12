@@ -1,0 +1,28 @@
+# Weeks 1-4: Early Season Overreactions
+
+## Required Inputs
+- `{league_name}` - Name of the fantasy league
+- `{week_number}` - Current week (1-4)
+- `{selected_tone}` - User's chosen tone
+- `{uploaded_data}` - League standings and performance data
+
+## Prompt Template
+
+Write 200-word analysis of early season overreactions in {selected_tone} tone.
+
+[IF BANTER]: Playfully mock the hot takes - "Slow down there, champion, it's been three weeks"
+[IF BRUTAL]: Ruthlessly call out premature victory laps - "Congrats on beating three trash teams"
+[IF PROFESSIONAL]: Data-driven reality check - "Sample size suggests regression to mean likely"
+[IF CINEMATIC]: Epic rise-and-fall narrative - "Heroes crowned too soon often fall the hardest"
+[IF CASUAL]: Friendly reality check - "Pump the brakes, your schedule's been cake so far"
+
+Analyze 2-3 teams/players over or underperforming. End with one bold prediction matching the tone.
+
+## Key Elements
+- Identify overperformers likely to regress
+- Highlight underperformers with positive indicators
+- Reference strength of schedule
+- Make one bold prediction
+
+## Version History
+- v1.0 - Initial prompt for weeks 1-4
