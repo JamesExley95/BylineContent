@@ -1,14 +1,22 @@
 # Week 13: Must-Win Scenarios
 
 ## Required Inputs
+- `{sport}` - Selected sport (NFL/NBA/MLB/NHL/Soccer)
 - `{league_name}` - Name of the fantasy league
-- `{week_number}` - Week 13
+- `{period_number}` - Current week/gameweek
+- `{period_name}` - Week/Gameweek/Period based on sport
 - `{selected_tone}` - User's chosen tone
 - `{uploaded_data}` - Current standings and remaining schedules
 
 ## Prompt Template
 
-Write 200-word elimination scenarios in {selected_tone} tone.
+Write 200-word elimination scenarios in {sport} fantasy for {league_name} in {selected_tone} tone.
+
+REAL-WORLD CONTEXT: Reference actual {sport} elimination scenarios:
+- Compare to real {sport} teams facing elimination
+- Mention actual "win and in" games happening
+- Reference famous elimination games in {sport} history
+- Use real playoff-clinching scenarios as examples
 
 [IF BANTER]: Playful pressure - "No pressure, but lose and your season's over. Sleep tight!"
 [IF BRUTAL]: Harsh reality - "Win or go home, and based on your roster, start packing"
@@ -16,13 +24,22 @@ Write 200-word elimination scenarios in {selected_tone} tone.
 [IF CINEMATIC]: Do or die drama - "Everything has led to this moment... survive or perish"
 [IF CASUAL]: Straightforward - "Here's what needs to happen for you to make playoffs"
 
+Sport-specific elimination references:
+[IF NFL]: "Week 17 win-and-in scenarios"
+[IF NBA]: "Play-in tournament pressure"
+[IF MLB]: "Game 163 vibes"
+[IF NHL]: "Final night of the season chaos"
+[IF Soccer]: "Final day relegation battle intensity"
+
 Detail exact scenarios for each bubble team, make the stakes clear.
+Compare pressure to real {sport} elimination games.
 
 ## Key Elements
 - List each bubble team's scenario
+- Reference real {sport} elimination games
 - Include win-and-in situations
-- Include elimination scenarios
 - Explain tiebreaker situations
 
 ## Version History
 - v1.0 - Must-win scenario breakdown
+- v2.0 - Added multi-sport support and real-world integration
