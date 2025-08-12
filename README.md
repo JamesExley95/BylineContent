@@ -113,10 +113,19 @@ Each prompt file includes version history. Update when modifying prompts:
 - v2.0 - Major revisions or restructuring
 
 ## Future Enhancements
-- Infographic generation prompts (coming in v2)
+## Current Features (v2.0)
+- Multi-sport support (NFL, NBA, MLB, NHL, Soccer)
+- Real-world sports integration in all content
+- CSV-compatible alternatives for users without historical data
+- Custom news piece options with user input
+- Sport-specific terminology and references
+
+## Future Enhancements
+- Infographic generation prompts (coming in v2.1)
 - Video script generation (planned for full product)
-- Custom user-defined news pieces
-- Multi-sport support (NBA, MLB, NHL)
+- Additional sports (Cricket, Australian Football)
+- AI-powered trade analyzer
+- Season-long narrative tracking
 
 ## Support
 For questions about prompt implementation or modifications, refer to individual prompt files for specific documentation.
