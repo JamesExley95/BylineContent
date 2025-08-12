@@ -1,0 +1,28 @@
+# Week 14: Playoff Clinching Scenarios
+
+## Required Inputs
+- `{league_name}` - Name of the fantasy league
+- `{week_number}` - Week 14
+- `{selected_tone}` - User's chosen tone
+- `{uploaded_data}` - Current standings and scenarios
+
+## Prompt Template
+
+Write 200-word playoff-clinching breakdown in {selected_tone} tone.
+
+[IF BANTER]: Celebration/mockery - "Congrats on clinching! (Thanks to the easiest schedule ever)"
+[IF BRUTAL]: Harsh truths - "You clinched despite yourself, your team is still trash"
+[IF PROFESSIONAL]: Official scenarios - "Team X clinches division with win OR Team Y loss"
+[IF CINEMATIC]: Momentous achievement - "The chosen few have punched their golden tickets"
+[IF CASUAL]: Congrats given - "These teams are locked in, everyone else is sweating"
+
+Celebrate clinchers, identify who controls destiny, note elimination scenarios.
+
+## Key Elements
+- List teams that have clinched
+- List teams that control destiny
+- List teams needing help
+- Note any elimination scenarios
+
+## Version History
+- v1.0 - Playoff clinching scenarios
