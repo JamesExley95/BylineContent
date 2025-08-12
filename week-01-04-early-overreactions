@@ -1,14 +1,23 @@
 # Weeks 1-4: Early Season Overreactions
 
 ## Required Inputs
+- `{sport}` - Selected sport (NFL/NBA/MLB/NHL/Soccer)
 - `{league_name}` - Name of the fantasy league
-- `{week_number}` - Current week (1-4)
+- `{period_number}` - Current week/gameweek (1-4)
+- `{period_name}` - Week/Gameweek/Period based on sport
 - `{selected_tone}` - User's chosen tone
 - `{uploaded_data}` - League standings and performance data
 
 ## Prompt Template
 
-Write 200-word analysis of early season overreactions in {selected_tone} tone.
+Write 200-word analysis of early season overreactions in {sport} fantasy for {league_name} in {selected_tone} tone.
+
+REAL-WORLD CONTEXT: Reference actual {sport} storylines from the early season:
+- Surprise teams in the real {sport} standings
+- Unexpected player breakouts or disappointments
+- Major injuries affecting fantasy value
+- Coaching changes or scheme adjustments
+- Compare fantasy performances to real {sport} performances
 
 [IF BANTER]: Playfully mock the hot takes - "Slow down there, champion, it's been three weeks"
 [IF BRUTAL]: Ruthlessly call out premature victory laps - "Congrats on beating three trash teams"
@@ -16,13 +25,21 @@ Write 200-word analysis of early season overreactions in {selected_tone} tone.
 [IF CINEMATIC]: Epic rise-and-fall narrative - "Heroes crowned too soon often fall the hardest"
 [IF CASUAL]: Friendly reality check - "Pump the brakes, your schedule's been cake so far"
 
+Sport-specific references:
+[IF NFL]: "Like the Cowboys starting 3-0 before reality hits..."
+[IF NBA]: "Remember when the Magic started 5-0 last year?"
+[IF MLB]: "April heroes become September zeros"
+[IF NHL]: "October champions rarely hoist the Cup"
+[IF Soccer]: "Early season form vs fixtures debate"
+
 Analyze 2-3 teams/players over or underperforming. End with one bold prediction matching the tone.
 
 ## Key Elements
 - Identify overperformers likely to regress
 - Highlight underperformers with positive indicators
-- Reference strength of schedule
+- Reference strength of schedule using real {sport} context
 - Make one bold prediction
 
 ## Version History
 - v1.0 - Initial prompt for weeks 1-4
+- v2.0 - Added multi-sport support and real-world integration
