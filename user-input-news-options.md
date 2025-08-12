@@ -35,3 +35,19 @@ Examples:
 ## Updated Prompt Structure
 
 ### Custom News Piece Generator
+
+Generate 200-word news piece for {league_name} Week {week_number} in {selected_tone} tone.
+TOPIC: {user_selected_topic OR ai_generated_topic}
+CUSTOM DETAILS: {custom_topic_details}
+ADDITIONAL CONTEXT: {additional_context}
+[IF USER PROVIDED TOPIC]:
+Write about the specific topic provided, incorporating all context given.
+[IF BENCH POINTS ANALYSIS]:
+Analyze who left the most points on bench, optimal vs actual lineups.
+[IF MANAGER REPORT CARD]:
+Grade each manager A-F on their lineup decisions this week.
+[IF SURPRISE PERFORMERS]:
+Focus on unexpected heroes and shocking disappointments.
+[Continue for each option...]
+Maintain {selected_tone} throughout.
+
