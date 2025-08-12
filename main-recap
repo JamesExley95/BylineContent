@@ -1,0 +1,59 @@
+# Main Weekly Recap Narrative Prompt
+
+## Required Inputs
+- `{league_name}` - Name of the fantasy league
+- `{week_number}` - Current week (1-17)
+- `{selected_tone}` - User's chosen tone
+- `{recap_all_games}` - Boolean for full recap
+- `{game_of_the_week_only}` - Boolean for single game
+- `{user_selected_game}` - Optional specific matchup
+- `{uploaded_data}` - League data (CSV/Excel)
+
+## Prompt Template
+
+Generate fantasy football recap for {league_name} Week {week_number} in {selected_tone} tone.
+
+OPENING HOOK: Write 2-3 sentence lead capturing the week's biggest story/drama
+[This appears BEFORE the matchups table]
+
+USER CHOICE: {recap_all_games} or {game_of_the_week_only}
+
+[IF recap_all_games]:
+Write 75-100 words per matchup covering:
+- How the game unfolded (key performances, turning points)
+- Notable player performances (both good and bad)
+- What this result means for each team
+- Match tone to selection (banter/brutal/professional/cinematic/casual)
+
+[IF game_of_the_week_only]:
+GAME SELECTION: {user_selected_game} OR {ai_selects_closest_or_highest_scoring}
+Write 300-400 words deep dive on selected matchup:
+- Pre-game context/stakes
+- How it played out (quarter by quarter drama if close)
+- Star performances and crucial decisions
+- Impact on both teams' seasons
+- Match tone throughout
+
+END WITH: One-sentence teaser for next week's biggest matchup
+
+## Tone Variations
+
+### Banter
+Light-hearted, cheeky, playful ribbing, inside jokes welcome
+
+### Brutal
+Savage roasting, call out failures, no mercy on bad decisions
+
+### Professional
+ESPN-style analysis, stats-focused, formal language
+
+### Cinematic
+Movie-like drama, epic narratives, heroic/tragic framing
+
+### Casual
+Like texting friends, relaxed, conversational
+
+## Version History
+- v1.0 - Initial prompt creation
+- v1.1 - Removed Visionary/Optimist sections per feedback
+- v1.2 - Added game selection option
