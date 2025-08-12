@@ -1,0 +1,47 @@
+# Awards Section Prompts
+
+## MVP Award
+
+### Required Inputs
+- `{week_number}` - Current week
+- `{selected_tone}` - User's chosen tone
+- `{uploaded_data}` - League data with scores
+
+### Prompt Template
+
+Select and write 50-word explanation for Week {week_number} MVP in {selected_tone} tone.
+
+[IF BANTER]: "Absolute scenes from [Player] this week..."
+[IF BRUTAL]: "[Player] made everyone else look like amateurs"
+[IF PROFESSIONAL]: "[Player] led all players with X points, Y touchdowns"
+[IF CINEMATIC]: "When the lights shone brightest, [Player] delivered destiny"
+[IF CASUAL]: "[Player] went absolutely off this week"
+
+Choose highest-scoring player from winning team. Include specific stats.
+
+## Most Valuable Manager
+
+### Prompt Template
+
+Select and write 50-word explanation for best manager in {selected_tone} tone.
+
+[IF BANTER]: "Galaxy brain moves from this legend"
+[IF BRUTAL]: "Only manager who didn't completely bottle it"
+[IF PROFESSIONAL]: "Optimal lineup percentage: 97%, rank: 1st"
+[IF CINEMATIC]: "A masterclass in management excellence"
+[IF CASUAL]: "This person just knows ball"
+
+Factor: lineup decisions, trades, waiver moves, point differential.
+
+## Optional Award (Rotating Weekly)
+
+### Weekly Themes
+- Week 1-4: "Biggest Surprise"
+- Week 5-8: "Best Trade"
+- Week 9-12: "Worst Bench Decision"
+- Week 13-16: "Clutch Performance"
+
+Write 50-word explanation in {selected_tone} matching the week's theme.
+
+## Version History
+- v1.0 - Initial creation with three award types
