@@ -1,0 +1,62 @@
+BYLINE AI PROMPT SYSTEM - PLAIN ENGLISH EXPLANATION
+
+What This Is:
+This is a collection of AI prompts (instructions) that tell the AI how to write fantasy sports content. Think of each prompt as a recipe that the AI follows to create specific types of content.
+
+How It Works:
+
+1. USER INPUTS:
+   - User fills out a form on our website
+   - They pick what content they want (recap, awards, memes, etc.)
+   - They choose a tone (funny, serious, brutal, etc.)
+   - They upload their league's data
+
+2. PROMPT SELECTION:
+   - Based on what the user picked, we select the right prompt
+   - Each week of the season has its own special content
+   - Everything adjusts to the tone they selected
+
+3. AI PROCESSING:
+   - The prompt + user data goes to the AI
+   - AI generates the content following our instructions
+   - Content maintains consistent tone and quality
+
+4. DELIVERY:
+   - Formatted content sent via email
+   - Also viewable on a web page
+   - Looks professional and branded
+
+The Five Tones Explained:
+- BANTER: Friendly teasing, like joking with friends
+- BRUTAL: Harsh trash talk for leagues that can take it
+- PROFESSIONAL: Serious ESPN-style analysis
+- CINEMATIC: Dramatic movie-like storytelling
+- CASUAL: Relaxed, like texting with buddies
+
+Weekly Content Themes:
+- Weeks 1-4: Calling out overreactions to early results
+- Week 5: Players to trade for while value is low
+- Week 6: Fun midseason awards
+- Week 7-8: Trade deadline coverage
+- Week 9-14: Playoff race analysis
+- Week 15-16: Playoff and championship previews
+- Week 17: Season wrap-up
+
+Why This System Works:
+1. CONSISTENCY: Same quality every time
+2. PERSONALIZATION: Adapts to each league's data
+3. FLEXIBILITY: Five different personalities to match any league
+4. SCALABILITY: Can generate hundreds of recaps simultaneously
+5. EFFICIENCY: What took 3 days now takes 3 minutes
+
+File Organization:
+- Each type of content has its own file
+- Files are in "markdown" format (just formatted text)
+- Easy to update and improve over time
+- Version controlled so we can track changes
+
+For Non-Technical Users:
+You don't need to understand the technical details. Just know that when someone uses Byline, their league data goes through these prompts to create custom content that sounds like it was written by a professional sports writer who actually cares about their specific league.
+
+For Developers:
+These prompts integrate with Flowise AI workflows. Variables in {brackets} get replaced with actual user data. Each prompt includes tone conditionals [IF TONE] that modify output based on user selection. Prompts are modular and can be called independently or chained together.
