@@ -1,0 +1,28 @@
+# Week 5: Buy Low Candidates
+
+## Required Inputs
+- `{league_name}` - Name of the fantasy league
+- `{week_number}` - Week 5
+- `{selected_tone}` - User's chosen tone
+- `{uploaded_data}` - League rosters and performance data
+
+## Prompt Template
+
+Write 200-word "Buy Low" analysis in {selected_tone} tone.
+
+[IF BANTER]: Cheeky opportunity - "Time to fleece your league-mates while they're panicking!"
+[IF BRUTAL]: Savage assessment - "These managers are too stupid to see value on their bench"
+[IF PROFESSIONAL]: Analytical approach - "Based on target share and strength of schedule..."
+[IF CINEMATIC]: Dramatic opportunity - "In the darkest hour, fortune favors the bold"
+[IF CASUAL]: Friendly advice - "Here's who you should probably try to grab"
+
+Focus on 2-3 underperforming players. Suggest specific trades using actual rosters.
+
+## Key Elements
+- Identify 2-3 undervalued players currently rostered
+- Explain why they're undervalued (injury return, schedule, usage)
+- Suggest specific realistic trades
+- Match tone throughout
+
+## Version History
+- v1.0 - Initial buy low analyst prompt
