@@ -1,0 +1,28 @@
+# Week 13: Must-Win Scenarios
+
+## Required Inputs
+- `{league_name}` - Name of the fantasy league
+- `{week_number}` - Week 13
+- `{selected_tone}` - User's chosen tone
+- `{uploaded_data}` - Current standings and remaining schedules
+
+## Prompt Template
+
+Write 200-word elimination scenarios in {selected_tone} tone.
+
+[IF BANTER]: Playful pressure - "No pressure, but lose and your season's over. Sleep tight!"
+[IF BRUTAL]: Harsh reality - "Win or go home, and based on your roster, start packing"
+[IF PROFESSIONAL]: Clear scenarios - "Team A clinches with win + Team B loss OR..."
+[IF CINEMATIC]: Do or die drama - "Everything has led to this moment... survive or perish"
+[IF CASUAL]: Straightforward - "Here's what needs to happen for you to make playoffs"
+
+Detail exact scenarios for each bubble team, make the stakes clear.
+
+## Key Elements
+- List each bubble team's scenario
+- Include win-and-in situations
+- Include elimination scenarios
+- Explain tiebreaker situations
+
+## Version History
+- v1.0 - Must-win scenario breakdown
