@@ -1,1 +1,28 @@
+# Week 8: Trade Deadline Recap
 
+## Required Inputs
+- `{league_name}` - Name of the fantasy league
+- `{week_number}` - Week 8
+- `{selected_tone}` - User's chosen tone
+- `{uploaded_data}` - Trade data and rosters
+
+## Prompt Template
+
+Write 200-word trade deadline recap in {selected_tone} tone.
+
+[IF BANTER]: Playful grades - "Someone actually traded for that? Bold strategy, Cotton"
+[IF BRUTAL]: Savage grades - "This trade is so bad it should be vetoed retroactively"
+[IF PROFESSIONAL]: Analytical grades - "From a value perspective, Team A gained 15.3 points/week"
+[IF CINEMATIC]: Dramatic reveals - "The die is cast, the pieces are in motion"
+[IF CASUAL]: Friend's take - "Okay so Mike definitely won that trade, right?"
+
+Grade 2-3 trades or roast the league's inactivity if no trades occurred.
+
+## Key Elements
+- Grade 2-3 major trades (A-F scale)
+- Identify clear winners and losers
+- If no trades: roast the league's inactivity
+- Project impact on playoff race
+
+## Version History
+- v1.0 - Trade deadline recap and grades
